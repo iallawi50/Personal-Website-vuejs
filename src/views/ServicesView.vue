@@ -25,7 +25,12 @@
     </a>
   </div>
 </template>
-
+<script>
+export default {
+  name: "ServicesView",
+  
+}
+</script>
 <style lang="scss" scoped>
 a {
   text-decoration: none;

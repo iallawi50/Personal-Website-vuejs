@@ -14,6 +14,7 @@
 <script>
 import MyWork from "@/components/WorkComponent.vue";
 export default {
+  name: "PortfolioView", 
   components: {
     MyWork,
   },
