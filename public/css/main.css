@@ -1,0 +1,53 @@
+@font-face {
+  font-family: theSans;
+  src: url("../fonts/theSans.ttf");
+}
+@font-face {
+  font-family: Questv1;
+  src: url("../fonts/Questv1-Regular.otf");
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Small */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+:root {
+  --mainColor: #555574;
+}
+
+button {
+  background: var(--mainColor);
+  border: none;
+  cursor: pointer;
+  padding: 5px 20px;
+  color: white;
+  margin-top: 15px;
+  border-radius: 20px;
+  transition: background 0.3s;
+}
+button:hover {
+  background: #464675;
+}
+button:active {
+  background: #2c2c5a;
+}/*# sourceMappingURL=main.css.map */
