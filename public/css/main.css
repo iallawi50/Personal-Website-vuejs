@@ -36,18 +36,18 @@
 }
 
 button {
-  background: var(--mainColor);
+  background: #696995;
   border: none;
   cursor: pointer;
   padding: 5px 20px;
   color: white;
-  margin-top: 15px;
   border-radius: 20px;
   transition: background 0.3s;
 }
 button:hover {
-  background: #464675;
+  background: #555574;
 }
 button:active {
-  background: #2c2c5a;
+  background: #40405d;
+  box-shadow: 1px 1px 12px #40405d;
 }/*# sourceMappingURL=main.css.map */

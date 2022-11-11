@@ -19,4 +19,29 @@ export default {
 #app {
   font-family: theSans;
 }
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  //  box-shadow: inset 0 0 5px gray; 
+    /* border-radius: 10px; */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    
+    // box-shadow: inset 0 0 5px #009688; 
+    background: var(--mainColor); 
+    /* border-radius: 10px; */
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #45455c; 
+  }
 </style>

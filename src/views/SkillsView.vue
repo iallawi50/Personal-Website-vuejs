@@ -1,6 +1,16 @@
 <template>
   <div class="container">
 
+  <h1 class="main-title">تقنيات الويب</h1>
+    <div class="langs">
+      <div class="box" v-for="(skill, i) in skills.web" :key="i">
+        <div class="img-holder">
+          <img :src="require(`@/assets/imgs/${skill.img}`)" alt= />
+        </div>
+
+        <span>{{ skill.title }}</span>
+      </div>
+    </div>
   <h1 class="main-title">لغات البرمجة</h1>
     <div class="langs">
       <div class="box" v-for="(skill, i) in skills.langs" :key="i">
@@ -40,7 +50,7 @@ export default {
   data: function () {
     return {
       skills: {
-        langs: [
+        web: [
           {
             title: "HTML",
             img: "html.png",
@@ -49,13 +59,20 @@ export default {
             title: "CSS",
             img: "css.png",
           },
-          {
-            title: "JavaScript",
-            img: "javascript.png",
-          },
+
           {
             title: "SASS",
             img: "sass.png",
+          },
+        ],
+        langs: [
+                    {
+            title: "JavaScript",
+            img: "javascript.png",
+          },
+                    {
+            title: "PHP",
+            img: "php.png",
           },
         ],
         frameworks: [
@@ -63,6 +80,14 @@ export default {
             title: "VUEJS",
             img: "vuejs.png",
           },
+          {
+            title: "NuxtJs",
+            img: "Nuxt.png",
+          },
+          {
+            title: "Laravel",
+            img: "laravel.png"
+          }
         ],
         librarys: [
           {
@@ -102,6 +127,7 @@ export default {
       .img-holder {
       background: #fbfbfb;
       overflow: hidden;
+      height: 113px;
           img {
             width: 100%;
             transition: 0.3s;
@@ -115,7 +141,7 @@ export default {
         padding: 10px;
         color: white;
         background: var(--mainColor);
-        border-radius: 0 0 15px 15px;
+        //border-radius: 0 0 15px 15px;
         display: block;
       }
 

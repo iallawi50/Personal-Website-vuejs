@@ -64,7 +64,8 @@ body {
   flex-direction: row-reverse;
   img.me {
     width: 200px;
-    border-radius: 50%;
+    height: 200px;
+    border-radius: 20%;
     border: solid 3px var(--mainColor);
   }
 

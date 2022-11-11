@@ -64,7 +64,7 @@ a {
     padding: 10px;
     color: white;
     background: var(--mainColor);
-    border-radius: 0 0 15px 15px;
+    // border-radius: 0 0 15px 15px;
     display: block;
   }
 }

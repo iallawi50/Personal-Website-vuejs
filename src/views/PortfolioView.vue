@@ -14,7 +14,7 @@
 <script>
 import MyWork from "@/components/WorkComponent.vue";
 export default {
-  name: "PortfolioView", 
+  name: "PortfolioView",
   components: {
     MyWork,
   },
@@ -22,52 +22,65 @@ export default {
     return {
       works: [
         {
+          title: "موقعي الشخصي (الحالي)",
+          photo: "marten-logo.png",
+          link: "https://gdwle.com",
+          langs: ["html", "css", "sass", "javascript", "vuejs"],
+        },
+        {
           title: "موقع جدولي",
           photo: "gdwle.png",
           link: "https://gdwle.com",
           langs: ["html", "css", "javascript"],
         },
         {
+          title: "نادي البرمجة والذكاء الاصطناعي",
+          photo: "programmers-club.png",
+          link: "https://programmers-club-tvtc.netlify.app/",
+          langs: ["html", "css", "javascript"],
+        },
+        {
           title: "موقع عاداتي ومهاراتي",
           photo: "habitsandskills.png",
           link: "http://habitsandskills.herokuapp.com/",
-          langs: ["html", "css", "bootstrap", "laravel"],
+          langs: ["html", "css", "bootstrap", "php", "laravel"],
         },
+
         {
-          title: "موقع مشاريعي",
-          photo: "code.png",
-          link: "http://myprojects-cm.herokuapp.com/login",
-          langs: ["html", "css", "bootstrap", "laravel"],
+          title: "قالب بحث",
+          photo: "marten-search.png",
+          link: "https://marten-search.netlify.app/",
+          langs: ["html", "css", "javascript", "php"],
         },
-    
+
         {
           title: "موقعي الشخصي ( السابق )",
-          photo: "code.png",
+          photo: "me.png",
           link: "https://iallawi50.github.io/Template-Number-One",
           langs: ["html", "css", "javascript", "bootstrap"],
         },
-    
+
         {
-          title: "قالب 1",
-          photo: "code.png",
+          title: "قالب ليون",
+          photo: "lion.png",
           link: "https://iallawi50.github.io/Template-Number-One",
           langs: ["html", "css"],
         },
         {
-          title: "قالب 2",
-          photo: "code.png",
+          title: "قالب كاسبر",
+          photo: "kasper.png",
           link: "https://iallawi50.github.io/Template-Number-Two",
           langs: ["html", "css"],
         },
         {
-          title: "قالب 3",
-          photo: "code.png",
+          title: "قالب مارتن",
+          photo: "marten.png",
           link: "https://iallawi50.github.io/Template-Number-Three",
           langs: ["html", "css"],
         },
         {
-          title: "قالب 4",
-          photo: "code.png",
+          title: "قالب مولي",
+          photo: "molly.png",
           link: "https://iallawi50.github.io/Template-Number-Four",
           langs: ["html", "css"],
         },
