@@ -4,22 +4,28 @@
       <div class="img-holder">
         <img src="@/assets/imgs/coding.png" />
       </div>
-
       <span> برمجة وتطوير الواجهات الامامية</span>
     </div>
+
     <div class="box">
       <div class="img-holder">
         <img src="@/assets/imgs/uiux.png" />
       </div>
-
       <span>تصميم واجهة و تجربة المستخدم</span>
     </div>
+
+    <div class="box">
+      <div class="img-holder">
+        <img src="@/assets/imgs/salla.png" />
+      </div>
+      <span>تنسيق متجر سلة Custom Css</span>
+    </div>
+
     <a href="https://wa.me/966565595718">
       <div class="box">
         <div class="img-holder">
           <img src="@/assets/imgs/order.png" />
         </div>
-
         <span>تقدم بطلب مشروعك</span>
       </div>
     </a>
@@ -28,8 +34,7 @@
 <script>
 export default {
   name: "ServicesView",
-  
-}
+};
 </script>
 <style lang="scss" scoped>
 a {

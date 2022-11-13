@@ -24,7 +24,7 @@ export default {
         {
           title: "موقعي الشخصي (الحالي)",
           photo: "marten-logo.png",
-          link: "https://gdwle.com",
+          link: "https://ali-alabdullah.netlify.app/",
           langs: ["html", "css", "sass", "javascript", "vuejs"],
         },
         {
@@ -56,7 +56,7 @@ export default {
         {
           title: "موقعي الشخصي ( السابق )",
           photo: "me.png",
-          link: "https://iallawi50.github.io/Template-Number-One",
+          link: "https://ali-al-abdullah.netlify.app/",
           langs: ["html", "css", "javascript", "bootstrap"],
         },
 
