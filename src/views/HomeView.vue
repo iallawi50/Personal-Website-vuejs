@@ -24,7 +24,7 @@
           ><img src="../assets//imgs/safcsp.png"
         /></a>
       </div>
-      <router-link to="/about"><button>شاهد أعمالي</button></router-link>
+      <router-link to="/portfolio"><button>شاهد أعمالي</button></router-link>
     </div>
     <div class="img">
       <img src="../assets/imgs/home4.png" alt="" />
