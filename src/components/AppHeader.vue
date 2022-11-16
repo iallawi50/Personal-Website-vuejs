@@ -2,7 +2,7 @@
   <div>
     <nav>
       <router-link to="/">الرئيسية</router-link>
-      <router-link to="/about">أعمالي</router-link>
+      <router-link to="/portfolio">أعمالي</router-link>
       <router-link to="/skills">المهارات</router-link>
       <router-link to="/services">الخدمات</router-link>
     </nav>
