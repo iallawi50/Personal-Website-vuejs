@@ -94,6 +94,10 @@ export default {
             title: "Bootstrap",
             img: "bootstrap.png",
           },
+            {
+              title: "Vuetify",
+              img: "vuetify.png",
+            },
           {
             title: "Swiper",
             img: "swiper.png",
