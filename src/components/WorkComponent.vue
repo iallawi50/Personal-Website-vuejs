@@ -45,14 +45,11 @@ ul {
   display: flex;
   flex-direction: column;
   li {
-    display: flex;
-    justify-content: center;
-    align-content: center;
     width: 30px;
     height: 30px;
     img {
       width: 100%;
-      padding: 5px 0;
+      padding: 3px 0;
       transform: scale(1.2);
     }
   }
