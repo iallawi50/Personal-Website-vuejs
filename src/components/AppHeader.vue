@@ -14,7 +14,7 @@ nav {
   display: flex;
   justify-content: center;
   flex-direction: row-reverse;
-  background: #555574;
+  background: var(--mainColor);
   padding: 10px;
 
   a {
@@ -25,7 +25,7 @@ nav {
     font-size: 14px;
 
     &.router-link-exact-active {
-      color: #cbcbff;
+      color: var(--altColor);
     }
   }
 }

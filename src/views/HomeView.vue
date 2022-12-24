@@ -9,7 +9,9 @@
         <a target="_blank" href="https://instagram.com/dev_marten"
           ><img src="../assets//imgs/instagram.png"
         /></a>
-
+        <a target="_blank" href="https://t.me/iallawi50"
+          ><img src="../assets//imgs/telegram.png"
+        /></a>
         <a target="_blank" href="https://wa.me/966565595718"
           ><img src="../assets//imgs/whatsapp.png"
         /></a>
@@ -27,7 +29,7 @@
       <router-link to="/portfolio"><button>شاهد أعمالي</button></router-link>
     </div>
     <div class="img">
-      <img src="../assets/imgs/home4.png" alt="" />
+      <img src="../assets/imgs/home5.png" alt="" />
     </div>
   </div>
 </template>
@@ -100,7 +102,7 @@ body {
     flex-direction: row;
     align-content: center;
     img {
-    transition: 0.3s;
+      transition: 0.3s;
       opacity: 0.5;
       margin: 10px;
       width: 30px;

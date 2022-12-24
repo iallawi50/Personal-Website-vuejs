@@ -22,7 +22,7 @@ export default {
 
 /* width */
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 7px;
     
 }
 
@@ -42,6 +42,6 @@ export default {
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #45455c; 
+    background: var(--altColor); 
   }
 </style>

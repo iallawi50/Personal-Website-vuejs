@@ -27,6 +27,7 @@ export default {
           link: "https://ali-alabdullah.netlify.app/",
           langs: ["html", "css", "sass", "javascript", "vuejs"],
         },
+
         {
           title: "موقع جدولي",
           photo: "gdwle.png",
@@ -38,6 +39,24 @@ export default {
           photo: "programmers-club.png",
           link: "https://programmers-club-tvtc.netlify.app/",
           langs: ["html", "css", "javascript"],
+        },
+        {
+          title: "متجر سمارت ستور",
+          photo: "smartstore.png",
+          link: "https://smarrtstor.com/",
+          langs: ["salla"],
+        },
+        {
+          title: "متجر العناية بالاذن",
+          photo: "alanayet-balazn.png",
+          link: "https://salla.sa/mgmwat-alanayet-balazn",
+          langs: ["salla"],
+        },
+        {
+          title: "متجر بي كودز",
+          photo: "b-codes.png",
+          link: "https://smarrtstor.com/",
+          langs: ["salla"],
         },
         {
           title: "موقع عاداتي ومهاراتي",

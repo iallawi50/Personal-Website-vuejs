@@ -16,7 +16,7 @@
 
     <div class="box">
       <div class="img-holder">
-        <img src="@/assets/imgs/salla.png" />
+        <img src="@/assets/imgs/code-file.png" />
       </div>
       <span>تنسيق متجر سلة Custom Css</span>
     </div>
@@ -67,7 +67,7 @@ a {
   }
   span {
     padding: 10px;
-    color: white;
+    color: var(--altColor);
     background: var(--mainColor);
     // border-radius: 0 0 15px 15px;
     display: block;

@@ -62,6 +62,7 @@ ul {
   position: relative;
   .img-holder {
     background: #fbfbfb;
+    box-shadow: 1px 1px 10px 0.5px rgba(0, 0, 0, 0.509);
     overflow: hidden;
           width: 100%;
       height: 230px;
@@ -75,7 +76,7 @@ ul {
   }
   span {
     padding: 10px;
-    color: white;
+    color: var(--altColor);
     background: var(--mainColor);
     //border-radius: 0 0 15px 15px;
     display: block;
