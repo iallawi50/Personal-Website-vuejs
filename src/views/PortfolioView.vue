@@ -55,7 +55,7 @@ export default {
         {
           title: "متجر بي كودز",
           photo: "b-codes.png",
-          link: "https://smarrtstor.com/",
+          link: "https://b-codes.com/",
           langs: ["salla"],
         },
         {
